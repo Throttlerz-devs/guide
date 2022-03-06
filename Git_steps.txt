@@ -1,0 +1,48 @@
+git config --global user.name "Sid"
+
+git config --global user.email "sid86harth@gmail.com"
+
+touch.gitignore
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+git status
+
+git remote add origin (SHH)
+
+git push origin master
+
+untrack files : git rm --cached piencrypt -r
+
+git remote add all REMOTE-URL-1
+
+git remote set-url --add --push all REMOTE-URL-1
+
+git remote set-url --add --push all REMOTE-URL-2
+
+git push all BRANCH
+
+git fetch --all
+
+git branch 
+git checkout BRANCH
+git checkout -b BRANCH
+
+delete remote branch : git push --delete remoteBranchName
+
+delete local branch : git branch -d localBranchName
+
+rename a Git branch, run the following command: git branch -m <old> <new>.
+
+
+git cherry-pick 33c2aeb
+
+git restore --source develop 
+Test2
+
+
+git log master..

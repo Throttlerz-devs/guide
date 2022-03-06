@@ -1,0 +1,25 @@
+pip freeze > requirements.txt
+
+Procfile --> web: gunicorn app:app
+
+heroku
+
+heroku login
+
+git init
+
+git add .
+
+git commit -m "Initial commit"
+
+heroku create (name)
+
+git push heroku master
+
+reupload-->
+
+git add .
+
+git commit -m "Fixed issue"
+
+git push heroku master
